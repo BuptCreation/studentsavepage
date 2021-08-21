@@ -56,7 +56,8 @@ var model =require('../modules/db')
                             for(var i =0;i<authors.length;i++){                                                      //把所有的数据全部按照固定的顺序理出来
                                 for(var j=0;j<finalauthors.length;j++){
                                     if(authors[i]==finalauthors[j]){
-                                        finalnums[j]=finalnums[j]+nums[i];
+                                        // finalnums[j]=finalnums[j]+nums[i];
+                                        finalnums[j]=finalnums[j]+1;
                                         flags=1;
                                     }
                                 }
