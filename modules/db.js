@@ -1,6 +1,6 @@
 var mongdbclient=require("mongodb").MongoClient;
 var url="mongodb://47.94.108.20:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false"
-var dbname="BuptCreation"
+var dbname="littleterm"
 
 // var url="mongodb://localhost:27017"
 // var dbname="finally"

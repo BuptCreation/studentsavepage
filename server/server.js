@@ -26,33 +26,7 @@ var model =require('../modules/db')
                         }else{
                             conn.sendText("更新成功！");
                             flags1=1;
-                            if(data.type==='1'){
-                                db.collection("articlethreepartern").update({textno:data.title,partern:"1"},{$set:{content: data.contents}},function (err,ret) {
-                                    if(err){
-                                        console.log("一稿保存失败!");
-                                    }else{
-                                        console.log("一稿保存成功!");
-                                    }
-                                })
-                            }else if(data.type==='2'){
-                                db.collection("articlethreepartern").update({textno:data.title,partern:"2"},{$set:{content: data.contents}},function (err,ret) {
-                                    if(err){
-                                        console.log("二稿保存失败!");
-                                    }else{
-                                        console.log("二稿保存成功!");
-                                    }
-                                })
-                            }else if(data.type==='3'){
-                                db.collection("articlethreepartern").update({textno:data.title,partern:"3"},{$set:{content: data.contents}},function (err,ret) {
-                                    if(err){
-                                        console.log("三稿保存失败!");
-                                    }else{
-                                        console.log("三稿保存成功!");
-                                    }
-                                })
-                            }else{
 
-                            }
                         }
                     })
 
@@ -116,7 +90,7 @@ var model =require('../modules/db')
                 console.log("链接已经断开！",err,reason)
             })
         }
-    ).listen(3334)
+    ).listen(3324)
 
-    console.log('Listening on http://localhost:3334');
+    console.log('Listening on http://localhost:3324');
 
