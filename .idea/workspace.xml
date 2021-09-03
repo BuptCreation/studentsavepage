@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2da796f-aeb6-47b1-b2d5-5b257401e19a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/hello/teacherpage" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -69,6 +70,8 @@
       <workItem from="1630282572160" duration="1175000" />
       <workItem from="1630300868468" duration="4691000" />
       <workItem from="1630367452668" duration="6674000" />
+      <workItem from="1630551689119" duration="1426000" />
+      <workItem from="1630628540753" duration="2895000" />
     </task>
     <task id="LOCAL-00001" summary="学生端用来存储分析数据以及文章的服务端">
       <created>1629035946636</created>
@@ -119,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630391034111</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="协同协作用来将数据存储到数据库的服务端">
+      <created>1630551734172</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1630551734172</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,14 +149,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1629016774401" />
-    <state x="434" y="0" key="CommitChangelistDialog2" timestamp="1630391032348">
+    <state x="434" y="0" key="CommitChangelistDialog2" timestamp="1630551731981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="434" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1630391032348" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1630390961619">
+    <state x="434" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1630551731981" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1630628565971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1630390961619" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1630628565971" />
     <state width="870" height="248" key="GridCell.Tab.0.bottom" timestamp="1628581080629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -211,10 +221,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="870" height="248" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1628581080635" />
-    <state x="389" y="122" key="Vcs.Push.Dialog.v2" timestamp="1630391092555">
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2" timestamp="1630551797810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="389" y="122" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1630391092555" />
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1630551797810" />
+    <state x="178" y="72" key="new project wizard" timestamp="1630560484948">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1630560484948" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1629119583632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

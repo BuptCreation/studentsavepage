@@ -1,4 +1,3 @@
-
 let ws=require("nodejs-websocket")
 var model =require('../modules/db')
 // Create initial document then fire callback
